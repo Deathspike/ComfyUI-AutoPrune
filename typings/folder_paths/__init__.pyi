@@ -1,0 +1,2 @@
+def get_output_directory() -> str:
+    pass
