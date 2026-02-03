@@ -1,6 +1,6 @@
 # ComfyUI-AutoPrune
 
-A slightly cursed ComfyUI _custom node_ that creates pruned copies of saved images without ComfyUI metadata.
+A slightly cursed ComfyUI _custom node_ that creates pruned copies of images without ComfyUI metadata.
 
 ## 🤨 What the hell does that-
 
@@ -26,7 +26,7 @@ Good question! You can install in two ways:
 4. Restart ComfyUI.
 
 > [!WARNING]
-> On startup, _AutoPrune_ will create pruned copies for **all images currently in your output directory**.
+> _AutoPrune_ will create pruned copies for **all images currently in your output directory**.
 
 ## 🌐 Community
 
