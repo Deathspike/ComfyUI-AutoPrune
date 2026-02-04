@@ -7,6 +7,10 @@ from PIL import Image
 
 
 class Prune:
+    """
+    Mirrors PNGs from a source directory into a target directory as metadata-free copies.
+    """
+
     def __init__(self, source_dir: str, target_dir: str, max_workers: int):
         self._exclusive_lock = Lock()
         self._exec = ThreadPoolExecutor(max_workers)
