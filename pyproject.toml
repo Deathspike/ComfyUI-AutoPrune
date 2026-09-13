@@ -1,7 +1,7 @@
 [project]
 name = "comfyui-autoprune"
 description = "A slightly cursed ComfyUI custom node that creates pruned copies of images without ComfyUI metadata."
-version = "1.0.0"
+version = "1.0.1"
 license = { file = "LICENSE" }
 dependencies  = []
 

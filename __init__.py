@@ -7,3 +7,6 @@ from .modules.prune import Prune
 output_directory = get_output_directory()
 pruned_directory = path.join(output_directory, "autoprune")
 Prune(output_directory, pruned_directory, cpu_count() or 1)
+
+NODE_CLASS_MAPPINGS = {}
+NODE_DISPLAY_NAME_MAPPINGS = {}
